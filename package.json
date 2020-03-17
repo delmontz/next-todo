@@ -1,0 +1,25 @@
+{
+  "name": "next-todo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "serve": "serve out"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.2.5",
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^7.2.0",
+    "ress": "^2.0.4",
+    "styled-components": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0",
+    "serve": "^11.3.0"
+  },
+  "license": "ISC"
+}
