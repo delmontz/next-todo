@@ -1,23 +1,13 @@
-import React from 'react'
-import Link from 'next/link'
-import styled from 'styled-components'
-
-const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-`
-
-const Anchor = styled.a`
-  font-size: 100px;
-`
+import React from 'react';
+import Link from 'next/link';
+import { RootStyles } from '../styles/common';
 
 export default () => (
   <>
-    <Container>
-      <Link href="/top">
-        <a>入り口</a>
+    <RootStyles>
+      <Link href="/counter">
+        <a>カウンターAPP</a>
       </Link>
-    </Container>
+    </RootStyles>
   </>
 )
