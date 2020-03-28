@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import TextArea from '../components/TextArea';
+import TextField from '../components/TextField';
 import styled from 'styled-components';
 
 const DlWrapper = styled.dl`
@@ -13,9 +14,13 @@ export default () => {
 
   return (
   <DlWrapper>
-    <dt>テキストエリア</dt>
+    <dt>TextArea</dt>
     <dd>
-      <TextArea label="hoge" value={text} setter={setText} />
+      <TextArea label="ラベル" value={text} setter={setText} />
+    </dd>
+    <dt>TextField</dt>
+    <dd>
+      <TextField label="ラベル" value={text} setter={setText} />
     </dd>
   </DlWrapper>
   );

@@ -19,6 +19,7 @@ export default TextArea;
 
 const TextAreaWrapper = styled.textarea`
   width: 100%;
+  border-radius: 5px;
   border: 1px solid ${props => props.theme.colors.borderline};
   box-sizing: border-box;
 `
