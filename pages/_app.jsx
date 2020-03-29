@@ -12,7 +12,10 @@ const GlobalStyle = createGlobalStyle`
 
 const theme = {
   colors: {
-    borderline: '#DADADA'
+    borderline: '#DADADA',
+    main: '#FF5470',
+    gray: '#888888',
+    lime: '#00EBC7'
   },
 }
 
