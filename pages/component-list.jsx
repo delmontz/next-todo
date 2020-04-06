@@ -5,6 +5,7 @@ import TextArea from '../components/TextArea';
 import TextField from '../components/TextField';
 import SelectBox from '../components/SelectBox';
 import Button from '../components/Button';
+import Icon from '../components/Icon';
 
 const DlWrapper = styled.dl`
   dd {
@@ -65,6 +66,13 @@ export default (props) => {
         text="main"
         valiant="main"
         onClick={()=>alert('クリックされた')}
+      />
+    </dd>
+    <dt>アイコン(add,delete,fab,info)</dt>
+    <dd>
+      <Icon
+        name="add"
+        pxWidth="100px"
       />
     </dd>
   </DlWrapper>
