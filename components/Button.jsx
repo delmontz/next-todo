@@ -5,6 +5,7 @@ const Button = ({
   text,
   onClick,
   valiant,
+  iconName
 } = {}) => {
   return (
     <div>
